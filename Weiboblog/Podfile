@@ -1,0 +1,5 @@
+platform :ios, '9.0'
+    target 'Weiboblog' do
+    pod 'AFNetworking', '~> 4.0.1'
+    pod "Weibo_SDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
+end
