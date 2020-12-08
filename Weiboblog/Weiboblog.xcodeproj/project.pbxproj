@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFDD257DFF8A00C3FD24 /* TabBarController.m */; };
+		0626CFE4257DFFDF00C3FD24 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */; };
+		0626CFEA257DFFFE00C3FD24 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */; };
+		0626CFF0257E000700C3FD24 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFEF257E000700C3FD24 /* ThirdViewController.m */; };
 		0650E670256B8EFC002B52F7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */; };
 		0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C4256502C5004F0564 /* AppDelegate.m */; };
 		0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C7256502C5004F0564 /* SceneDelegate.m */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0626CFDC257DFF8A00C3FD24 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		0626CFDD257DFF8A00C3FD24 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		0626CFE2257DFFDF00C3FD24 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0626CFE8257DFFFE00C3FD24 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0626CFEE257E000700C3FD24 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0626CFEF257E000700C3FD24 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0659B3C0256502C5004F0564 /* Weiboblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiboblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659B3C3256502C5004F0564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +125,14 @@
 				0659B3C4256502C5004F0564 /* AppDelegate.m */,
 				0659B3C6256502C5004F0564 /* SceneDelegate.h */,
 				0659B3C7256502C5004F0564 /* SceneDelegate.m */,
+				0626CFDC257DFF8A00C3FD24 /* TabBarController.h */,
+				0626CFDD257DFF8A00C3FD24 /* TabBarController.m */,
+				0626CFE2257DFFDF00C3FD24 /* HomeViewController.h */,
+				0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */,
+				0626CFE8257DFFFE00C3FD24 /* SecondViewController.h */,
+				0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */,
+				0626CFEE257E000700C3FD24 /* ThirdViewController.h */,
+				0626CFEF257E000700C3FD24 /* ThirdViewController.m */,
 				0659B3C9256502C5004F0564 /* ViewController.h */,
 				0659B3CA256502C5004F0564 /* ViewController.m */,
 				0659B3CF256502C7004F0564 /* Assets.xcassets */,
@@ -332,8 +352,12 @@
 			files = (
 				0659B3CB256502C5004F0564 /* ViewController.m in Sources */,
 				0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */,
+				0626CFF0257E000700C3FD24 /* ThirdViewController.m in Sources */,
+				0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */,
+				0626CFEA257DFFFE00C3FD24 /* SecondViewController.m in Sources */,
 				0659B3D6256502C7004F0564 /* main.m in Sources */,
 				0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */,
+				0626CFE4257DFFDF00C3FD24 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
