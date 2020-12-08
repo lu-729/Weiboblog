@@ -8,17 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFDD257DFF8A00C3FD24 /* TabBarController.m */; };
-		0626CFE4257DFFDF00C3FD24 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */; };
-		0626CFEA257DFFFE00C3FD24 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */; };
-		0626CFF0257E000700C3FD24 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFEF257E000700C3FD24 /* ThirdViewController.m */; };
 		0650E670256B8EFC002B52F7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */; };
 		0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C4256502C5004F0564 /* AppDelegate.m */; };
 		0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C7256502C5004F0564 /* SceneDelegate.m */; };
-		0659B3CB256502C5004F0564 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3CA256502C5004F0564 /* ViewController.m */; };
 		0659B3D0256502C7004F0564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0659B3CF256502C7004F0564 /* Assets.xcassets */; };
 		0659B3D6256502C7004F0564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3D5256502C7004F0564 /* main.m */; };
 		0659B3E0256502C8004F0564 /* WeiboblogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3DF256502C8004F0564 /* WeiboblogTests.m */; };
 		0659B3EB256502C8004F0564 /* WeiboblogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3EA256502C8004F0564 /* WeiboblogUITests.m */; };
+		06FF829B257F324400693A2C /* Home in Resources */ = {isa = PBXBuildFile; fileRef = 06FF829A257F324400693A2C /* Home */; };
+		06FF82A3257F330800693A2C /* Third in Resources */ = {isa = PBXBuildFile; fileRef = 06FF82A2257F330800693A2C /* Third */; };
 		F7DC64A9A744780620500F46 /* libPods-Weiboblog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3379FECC98975A0063AF6938 /* libPods-Weiboblog.a */; };
 /* End PBXBuildFile section */
 
@@ -42,20 +40,12 @@
 /* Begin PBXFileReference section */
 		0626CFDC257DFF8A00C3FD24 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		0626CFDD257DFF8A00C3FD24 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		0626CFE2257DFFDF00C3FD24 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		0626CFE8257DFFFE00C3FD24 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		0626CFEE257E000700C3FD24 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		0626CFEF257E000700C3FD24 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0659B3C0256502C5004F0564 /* Weiboblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiboblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659B3C3256502C5004F0564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0659B3C4256502C5004F0564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0659B3C6256502C5004F0564 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		0659B3C7256502C5004F0564 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		0659B3C9256502C5004F0564 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0659B3CA256502C5004F0564 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0659B3CF256502C7004F0564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0659B3D4256502C7004F0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0659B3D5256502C7004F0564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +55,10 @@
 		0659B3E6256502C8004F0564 /* WeiboblogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboblogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659B3EA256502C8004F0564 /* WeiboblogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboblogUITests.m; sourceTree = "<group>"; };
 		0659B3EC256502C8004F0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FF829A257F324400693A2C /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Home; sourceTree = "<group>"; };
+		06FF82A0257F32C900693A2C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		06FF82A1257F32C900693A2C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		06FF82A2257F330800693A2C /* Third */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Third; path = Weiboblog/Third; sourceTree = SOURCE_ROOT; };
 		3379FECC98975A0063AF6938 /* libPods-Weiboblog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weiboblog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BBC382DC7EF9DEBC1DB26F /* Pods-Weiboblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboblog.release.xcconfig"; path = "Target Support Files/Pods-Weiboblog/Pods-Weiboblog.release.xcconfig"; sourceTree = "<group>"; };
 		61A580512D59104F6C2F0745 /* Pods-Weiboblog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboblog.debug.xcconfig"; path = "Target Support Files/Pods-Weiboblog/Pods-Weiboblog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,16 +119,11 @@
 				0659B3C4256502C5004F0564 /* AppDelegate.m */,
 				0659B3C6256502C5004F0564 /* SceneDelegate.h */,
 				0659B3C7256502C5004F0564 /* SceneDelegate.m */,
+				06FF829A257F324400693A2C /* Home */,
+				06FF829F257F32C900693A2C /* Second */,
+				06FF82A2257F330800693A2C /* Third */,
 				0626CFDC257DFF8A00C3FD24 /* TabBarController.h */,
 				0626CFDD257DFF8A00C3FD24 /* TabBarController.m */,
-				0626CFE2257DFFDF00C3FD24 /* HomeViewController.h */,
-				0626CFE3257DFFDF00C3FD24 /* HomeViewController.m */,
-				0626CFE8257DFFFE00C3FD24 /* SecondViewController.h */,
-				0626CFE9257DFFFE00C3FD24 /* SecondViewController.m */,
-				0626CFEE257E000700C3FD24 /* ThirdViewController.h */,
-				0626CFEF257E000700C3FD24 /* ThirdViewController.m */,
-				0659B3C9256502C5004F0564 /* ViewController.h */,
-				0659B3CA256502C5004F0564 /* ViewController.m */,
 				0659B3CF256502C7004F0564 /* Assets.xcassets */,
 				0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */,
 				0659B3D4256502C7004F0564 /* Info.plist */,
@@ -159,6 +148,15 @@
 				0659B3EC256502C8004F0564 /* Info.plist */,
 			);
 			path = WeiboblogUITests;
+			sourceTree = "<group>";
+		};
+		06FF829F257F32C900693A2C /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				06FF82A0257F32C900693A2C /* SecondViewController.h */,
+				06FF82A1257F32C900693A2C /* SecondViewController.m */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 		4155F12B3B8EB2F6B9626F51 /* Pods */ = {
@@ -282,8 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FF82A3257F330800693A2C /* Third in Resources */,
 				0650E670256B8EFC002B52F7 /* Launch Screen.storyboard in Resources */,
 				0659B3D0256502C7004F0564 /* Assets.xcassets in Resources */,
+				06FF829B257F324400693A2C /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,14 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0659B3CB256502C5004F0564 /* ViewController.m in Sources */,
 				0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */,
-				0626CFF0257E000700C3FD24 /* ThirdViewController.m in Sources */,
 				0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */,
-				0626CFEA257DFFFE00C3FD24 /* SecondViewController.m in Sources */,
 				0659B3D6256502C7004F0564 /* main.m in Sources */,
 				0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */,
-				0626CFE4257DFFDF00C3FD24 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
