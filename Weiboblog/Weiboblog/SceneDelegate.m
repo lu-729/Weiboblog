@@ -6,7 +6,9 @@
 //
 
 #import "SceneDelegate.h"
-
+#import "HomeViewController.h" //首页
+#import "SecondViewController.h" //中间
+#import "ThirdViewController.h" //个人
 @interface SceneDelegate ()
 
 @end
@@ -23,7 +25,29 @@
         NSLog(@"iOS13及之后版本");
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         self.window.windowScene = (UIWindowScene *)scene;
-        self.window.backgroundColor = [UIColor grayColor];
+        
+        //添加NavigationController和TabbarController
+        HomeViewController *homeVC = [[HomeViewController alloc] init];
+        SecondViewController *secondVC = [[SecondViewController alloc] init];
+        ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
+        
+        homeVC.title = @"首页";
+        secondVC.title = @"中间";
+        thirdVC.title = @"个人";
+        homeVC.view.backgroundColor = [UIColor yellowColor];
+        secondVC.view.backgroundColor = [UIColor redColor];
+        thirdVC.view.backgroundColor = [UIColor purpleColor];
+        
+        UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+        UINavigationController *secondNav = [[UINavigationController alloc] initWithRootViewController:secondVC];
+        UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdVC];
+        
+        UITabBarController *tabBarController = [[UITabBarController alloc] init];
+        [tabBarController addChildViewController:homeNav];
+        [tabBarController addChildViewController:secondNav];
+        [tabBarController addChildViewController:thirdNav];
+        
+        self.window.rootViewController = tabBarController;
         [self.window makeKeyAndVisible];
     }
 }

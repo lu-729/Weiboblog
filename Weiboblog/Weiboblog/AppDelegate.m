@@ -47,8 +47,6 @@
         [tabBarController addChildViewController:thirdNav];
         
         self.window.rootViewController = tabBarController;
-        
-//        self.window.rootViewController = vc;
         [self.window makeKeyAndVisible];
     }
     return YES;
