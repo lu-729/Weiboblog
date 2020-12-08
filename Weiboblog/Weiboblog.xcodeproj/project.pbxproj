@@ -15,8 +15,9 @@
 		0659B3D6256502C7004F0564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3D5256502C7004F0564 /* main.m */; };
 		0659B3E0256502C8004F0564 /* WeiboblogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3DF256502C8004F0564 /* WeiboblogTests.m */; };
 		0659B3EB256502C8004F0564 /* WeiboblogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3EA256502C8004F0564 /* WeiboblogUITests.m */; };
-		06FF829B257F324400693A2C /* Home in Resources */ = {isa = PBXBuildFile; fileRef = 06FF829A257F324400693A2C /* Home */; };
-		06FF82A3257F330800693A2C /* Third in Resources */ = {isa = PBXBuildFile; fileRef = 06FF82A2257F330800693A2C /* Third */; };
+		06FF82CD257F3FA400693A2C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FF82CB257F3FA400693A2C /* HomeViewController.m */; };
+		06FF82D4257F3FE900693A2C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FF82D3257F3FE900693A2C /* SecondViewController.m */; };
+		06FF82DB257F3FF400693A2C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FF82DA257F3FF400693A2C /* ThirdViewController.m */; };
 		F7DC64A9A744780620500F46 /* libPods-Weiboblog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3379FECC98975A0063AF6938 /* libPods-Weiboblog.a */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +56,12 @@
 		0659B3E6256502C8004F0564 /* WeiboblogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboblogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659B3EA256502C8004F0564 /* WeiboblogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboblogUITests.m; sourceTree = "<group>"; };
 		0659B3EC256502C8004F0564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06FF829A257F324400693A2C /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Home; sourceTree = "<group>"; };
-		06FF82A0257F32C900693A2C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		06FF82A1257F32C900693A2C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		06FF82A2257F330800693A2C /* Third */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Third; path = Weiboblog/Third; sourceTree = SOURCE_ROOT; };
+		06FF82CB257F3FA400693A2C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		06FF82CC257F3FA400693A2C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		06FF82D2257F3FE900693A2C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		06FF82D3257F3FE900693A2C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		06FF82D9257F3FF400693A2C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		06FF82DA257F3FF400693A2C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3379FECC98975A0063AF6938 /* libPods-Weiboblog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weiboblog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BBC382DC7EF9DEBC1DB26F /* Pods-Weiboblog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboblog.release.xcconfig"; path = "Target Support Files/Pods-Weiboblog/Pods-Weiboblog.release.xcconfig"; sourceTree = "<group>"; };
 		61A580512D59104F6C2F0745 /* Pods-Weiboblog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weiboblog.debug.xcconfig"; path = "Target Support Files/Pods-Weiboblog/Pods-Weiboblog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,9 +122,9 @@
 				0659B3C4256502C5004F0564 /* AppDelegate.m */,
 				0659B3C6256502C5004F0564 /* SceneDelegate.h */,
 				0659B3C7256502C5004F0564 /* SceneDelegate.m */,
-				06FF829A257F324400693A2C /* Home */,
-				06FF829F257F32C900693A2C /* Second */,
-				06FF82A2257F330800693A2C /* Third */,
+				06FF82CA257F3FA400693A2C /* Home */,
+				06FF82D1257F3FE900693A2C /* Second */,
+				06FF82D8257F3FF400693A2C /* Third */,
 				0626CFDC257DFF8A00C3FD24 /* TabBarController.h */,
 				0626CFDD257DFF8A00C3FD24 /* TabBarController.m */,
 				0659B3CF256502C7004F0564 /* Assets.xcassets */,
@@ -150,13 +153,31 @@
 			path = WeiboblogUITests;
 			sourceTree = "<group>";
 		};
-		06FF829F257F32C900693A2C /* Second */ = {
+		06FF82CA257F3FA400693A2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				06FF82A0257F32C900693A2C /* SecondViewController.h */,
-				06FF82A1257F32C900693A2C /* SecondViewController.m */,
+				06FF82CB257F3FA400693A2C /* HomeViewController.m */,
+				06FF82CC257F3FA400693A2C /* HomeViewController.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		06FF82D1257F3FE900693A2C /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				06FF82D2257F3FE900693A2C /* SecondViewController.h */,
+				06FF82D3257F3FE900693A2C /* SecondViewController.m */,
 			);
 			path = Second;
+			sourceTree = "<group>";
+		};
+		06FF82D8257F3FF400693A2C /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				06FF82D9257F3FF400693A2C /* ThirdViewController.h */,
+				06FF82DA257F3FF400693A2C /* ThirdViewController.m */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 		4155F12B3B8EB2F6B9626F51 /* Pods */ = {
@@ -280,10 +301,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FF82A3257F330800693A2C /* Third in Resources */,
 				0650E670256B8EFC002B52F7 /* Launch Screen.storyboard in Resources */,
 				0659B3D0256502C7004F0564 /* Assets.xcassets in Resources */,
-				06FF829B257F324400693A2C /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FF82D4257F3FE900693A2C /* SecondViewController.m in Sources */,
 				0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */,
 				0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */,
 				0659B3D6256502C7004F0564 /* main.m in Sources */,
 				0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */,
+				06FF82CD257F3FA400693A2C /* HomeViewController.m in Sources */,
+				06FF82DB257F3FF400693A2C /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
