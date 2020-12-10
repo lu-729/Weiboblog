@@ -16,6 +16,24 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.weibo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>weibosdk3.3</string>
+				<string>weibosdk2.5</string>
+				<string>weibosdk</string>
+				<string>sinaweibo</string>
+				<string>sinaweibohd</string>
+				<string>wb2802319162</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>

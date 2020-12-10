@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0626CFDD257DFF8A00C3FD24 /* TabBarController.m */; };
+		06390C7F2581C19400BBFDB4 /* ProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06390C7E2581C19400BBFDB4 /* ProductListTableViewCell.m */; };
 		0650E670256B8EFC002B52F7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */; };
 		0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C4256502C5004F0564 /* AppDelegate.m */; };
 		0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0659B3C7256502C5004F0564 /* SceneDelegate.m */; };
@@ -40,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		061D5443258120EE00104293 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		0626CFDC257DFF8A00C3FD24 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		0626CFDD257DFF8A00C3FD24 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		06390C7D2581C19400BBFDB4 /* ProductListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListTableViewCell.h; sourceTree = "<group>"; };
+		06390C7E2581C19400BBFDB4 /* ProductListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListTableViewCell.m; sourceTree = "<group>"; };
 		0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0659B3C0256502C5004F0564 /* Weiboblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiboblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659B3C3256502C5004F0564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,8 +97,22 @@
 		061D5442258120BF00104293 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				0659B3C3256502C5004F0564 /* AppDelegate.h */,
+				0659B3C4256502C5004F0564 /* AppDelegate.m */,
+				0659B3C6256502C5004F0564 /* SceneDelegate.h */,
+				0659B3C7256502C5004F0564 /* SceneDelegate.m */,
 			);
 			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		06390C912582703400BBFDB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0659B3D4256502C7004F0564 /* Info.plist */,
+				0659B3D5256502C7004F0564 /* main.m */,
+				061D5443258120EE00104293 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0659B3B7256502C5004F0564 = {
@@ -126,21 +140,13 @@
 		0659B3C2256502C5004F0564 /* Weiboblog */ = {
 			isa = PBXGroup;
 			children = (
-				0659B3C3256502C5004F0564 /* AppDelegate.h */,
-				0659B3C4256502C5004F0564 /* AppDelegate.m */,
-				0659B3C6256502C5004F0564 /* SceneDelegate.h */,
-				0659B3C7256502C5004F0564 /* SceneDelegate.m */,
 				061D5442258120BF00104293 /* BaseClasses */,
 				06FF82CA257F3FA400693A2C /* Home */,
 				06FF82D1257F3FE900693A2C /* Second */,
 				06FF82D8257F3FF400693A2C /* Third */,
-				0626CFDC257DFF8A00C3FD24 /* TabBarController.h */,
-				0626CFDD257DFF8A00C3FD24 /* TabBarController.m */,
 				0659B3CF256502C7004F0564 /* Assets.xcassets */,
 				0650E66F256B8EFC002B52F7 /* Launch Screen.storyboard */,
-				0659B3D4256502C7004F0564 /* Info.plist */,
-				0659B3D5256502C7004F0564 /* main.m */,
-				061D5443258120EE00104293 /* PrefixHeader.pch */,
+				06390C912582703400BBFDB4 /* Supporting Files */,
 			);
 			path = Weiboblog;
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 		06FF82CA257F3FA400693A2C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				06FF82CB257F3FA400693A2C /* HomeViewController.m */,
 				06FF82CC257F3FA400693A2C /* HomeViewController.h */,
+				06FF82CB257F3FA400693A2C /* HomeViewController.m */,
+				06390C7D2581C19400BBFDB4 /* ProductListTableViewCell.h */,
+				06390C7E2581C19400BBFDB4 /* ProductListTableViewCell.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -381,9 +389,9 @@
 			files = (
 				06FF82D4257F3FE900693A2C /* SecondViewController.m in Sources */,
 				0659B3C5256502C5004F0564 /* AppDelegate.m in Sources */,
-				0626CFDE257DFF8A00C3FD24 /* TabBarController.m in Sources */,
 				0659B3D6256502C7004F0564 /* main.m in Sources */,
 				0659B3C8256502C5004F0564 /* SceneDelegate.m in Sources */,
+				06390C7F2581C19400BBFDB4 /* ProductListTableViewCell.m in Sources */,
 				06FF82CD257F3FA400693A2C /* HomeViewController.m in Sources */,
 				06FF82DB257F3FF400693A2C /* ThirdViewController.m in Sources */,
 			);
@@ -542,8 +550,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8WZV3WY5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Weiboblog/PrefixHeader.pch";
-				INFOPLIST_FILE = Weiboblog/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weiboblog/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "Weiboblog/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -564,8 +572,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8WZV3WY5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Weiboblog/PrefixHeader.pch";
-				INFOPLIST_FILE = Weiboblog/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weiboblog/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "Weiboblog/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
