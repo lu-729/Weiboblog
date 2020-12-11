@@ -20,6 +20,7 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
     //适配iOS13及以上版本
     if (@available(iOS 13.0, *)) {
         NSLog(@"iOS13及之后版本");
@@ -30,19 +31,17 @@
         HomeViewController *homeVC = [[HomeViewController alloc] init];
         SecondViewController *secondVC = [[SecondViewController alloc] init];
         ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
-        
         homeVC.title = @"首页";
         secondVC.title = @"中间";
         thirdVC.title = @"个人";
         homeVC.view.backgroundColor = [UIColor yellowColor];
         secondVC.view.backgroundColor = [UIColor redColor];
         thirdVC.view.backgroundColor = [UIColor purpleColor];
-        
         UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
         UINavigationController *secondNav = [[UINavigationController alloc] initWithRootViewController:secondVC];
         UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdVC];
         
-        UITabBarController *tabBarController = [[UITabBarController alloc] init];
+        UITabBarController *tabBarController = [[UITabBarController alloc] init]; 
         [tabBarController addChildViewController:homeNav];
         [tabBarController addChildViewController:secondNav];
         [tabBarController addChildViewController:thirdNav];
